@@ -40,7 +40,7 @@ git push origin master
 部署成功后，你的网站将在以下地址可用：
 
 ```
-https://<your-username>.github.io/netherlands/
+https://<your-username>.github.io/netherslands/
 ```
 
 ## 本地测试
@@ -63,7 +63,7 @@ pnpm preview
 
 ## 注意事项
 
-- **base 路径**：`vite.config.js` 中已配置 `base: '/netherlands/'`，这是 GitHub Pages 子路径部署所必需的
+- **base 路径**：`vite.config.js` 中已配置 `base: '/netherslands/'`，这是 GitHub Pages 子路径部署所必需的
 - **分支**：默认从 `master` 分支部署，如果你的主分支是 `main`，需要修改 `.github/workflows/deploy.yml` 中的分支名
 - **构建产物**：`dist` 目录已在 `.gitignore` 中，不会被提交到仓库
 
