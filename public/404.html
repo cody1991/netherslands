@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="utf-8">
   <title>页面重定向中...</title>
@@ -16,6 +17,7 @@
       justify-content: center;
       color: white;
     }
+
     .container {
       text-align: center;
       padding: 2rem;
@@ -24,6 +26,7 @@
       backdrop-filter: blur(10px);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     }
+
     .spinner {
       width: 40px;
       height: 40px;
@@ -33,15 +36,23 @@
       animation: spin 1s linear infinite;
       margin: 0 auto 1rem;
     }
+
     @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
+
     h1 {
       margin: 0 0 0.5rem 0;
       font-size: 1.5rem;
       font-weight: 600;
     }
+
     p {
       margin: 0;
       opacity: 0.9;
@@ -55,6 +66,7 @@
   </script>
   <meta http-equiv="refresh" content="0;URL='/netherslands/'">
 </head>
+
 <body>
   <div class="container">
     <div class="spinner"></div>
@@ -62,4 +74,5 @@
     <p>请稍候，正在为您加载页面</p>
   </div>
 </body>
+
 </html>
