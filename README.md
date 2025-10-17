@@ -1,4 +1,4 @@
-# 荷兰周边游 - Nethersland Travel Guide 🌍
+# 荷兰周边游 - Netherlands Travel Guide 🌍
 
 一个精美的 React 应用，帮助住在荷兰阿尔梅勒（Almere）的用户发现周边精彩的旅游景点。
 
@@ -64,7 +64,7 @@ npm run build
 ## 🗂️ 项目结构
 
 ```
-nethersland/
+netherlands/
 ├── src/
 │   ├── components/          # React组件
 │   │   ├── Header.jsx      # 导航栏组件

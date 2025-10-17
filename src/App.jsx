@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <Router basename="/netherlands">
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50">
         <Routes>
           <Route path="/" element={<Home />} />
