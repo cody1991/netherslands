@@ -62,7 +62,7 @@ export default function AttractionCard({ attraction, index }) {
             <span className="font-semibold text-yellow-800 text-sm">为什么推荐</span>
           </div>
           <p className="text-sm text-gray-700 leading-relaxed">
-            {attraction.recommendationReason || attraction.description || '这是一个值得一游的精彩景点，拥有丰富的历史文化内涵和独特的魅力。'}
+            {attraction.recommendationReason || attraction.description || '这是一个值得一游的精彩景点，拥有独特的魅力和丰富的体验。'}
           </p>
         </div>
 
