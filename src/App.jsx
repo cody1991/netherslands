@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { loadGoogleMapsScript } from './utils/loadGoogleMaps'
 import Home from './pages/Home'

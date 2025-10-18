@@ -1,3 +1,4 @@
+import React from 'react'
 import { MapPin, Clock, Euro, Calendar, Star, Users, Camera, Heart, BookOpen, Award } from 'lucide-react'
 
 export default function AttractionCard({ attraction, index }) {

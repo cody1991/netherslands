@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { MapPin, Clock, Train, Car, Plane, ArrowRight, Sparkles } from 'lucide-react'
 import { getPlaceGradient } from '../utils/getPlaceGradient'
